@@ -1,0 +1,158 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:active {
+  font-weight: normal;
+}
+
+a:hover {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+hr {
+  border-bottom: none;
+  border-top: 1px solid #000;
+  margin: 0;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* body > main {
+  margin: 0 1rem 1rem 1rem;
+} */
+
+section {
+  padding: 1rem 0;
+  @media (min-width: 768px) {
+    padding: 2rem 0;
+  }
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+  padding: 0rem;
+  border: none;
+  @media (min-width: 44em) {
+    padding: 0rem;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+}
+
+form {
+  max-width: 100%;
+  @media (min-width: 768px) {
+    max-width: 100%;
+  }
+}
+
+input {
+  border-radius: none !important;
+  border: 1px solid #000;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.25rem;
+  padding: 0.5rem;
+}
+
+input:focus {
+  outline: none; /* Remove default browser outline */
+}
+
+legend {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+dl {
+  margin: 0.5rem 0;
+}
+
+code {
+  background: #ddd;
+  border-radius: 4px;
+  font-family: monospace;
+  padding: 0.25rem;
+}
+
+a > img {
+  display: block;
+}
+
+mark {
+  background: transparent;
+  color: red;
+}
+
+small {
+  font-size: 0.75rem !important;
+  /* line-height: 1 !important; */
+}
